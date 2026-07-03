@@ -1,0 +1,32 @@
+.home-intro {
+  background: #050505;
+  color: white;
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.home-intro h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.home-intro p {
+  color: #bdbdbd;
+  font-size: 1.2rem;
+}
+
+body {
+    background: #0b0b0d;
+    color: #fff;
+}
+
+.item-list-container {
+    background: linear-gradient(
+        180deg,
+        #050505 0%,
+        #0c0715 40%,
+        #0b0b0d 100%
+    );
+    padding: 60px 40px;
+}

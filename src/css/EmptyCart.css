@@ -1,0 +1,56 @@
+.empty-cart {
+  min-height: 80vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #0b0b0d;
+  color: white;
+}
+
+.empty-icon {
+  font-size: 5rem;
+  color: #9d4edd;
+  margin-bottom: 25px;
+  animation: spin 10s linear infinite;
+}
+
+.empty-cart h1 {
+  font-size: 2.7rem;
+  margin-bottom: 15px;
+}
+
+.empty-cart p {
+  max-width: 520px;
+  color: #bdbdbd;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.empty-btn {
+  padding: 14px 30px;
+  border: 2px solid #9d4edd;
+  border-radius: 10px;
+
+  color: #9d4edd;
+  text-decoration: none;
+  font-weight: 600;
+
+  transition: .25s;
+}
+
+.empty-btn:hover {
+  background: #9d4edd;
+  color: white;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

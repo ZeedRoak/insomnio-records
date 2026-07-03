@@ -1,0 +1,26 @@
+.footer {
+  background: #09090b;
+  border-top: 1px solid rgba(157, 78, 221, 0.2);
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #8a8a8a;
+  font-size: 0.9rem;
+}
+
+.footer-bottom span:first-child {
+  color: #9d4edd;
+  font-style: italic;
+}
+
+.footer-bottom span:last-child {
+  color: #666;
+}
